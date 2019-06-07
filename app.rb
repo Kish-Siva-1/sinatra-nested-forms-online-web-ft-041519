@@ -16,7 +16,7 @@ module FormsLab
     
     params[:pirate][:ships].each do |details|
       binding.pry
-      Ship.new(details[:name], details[:type], details[:booty])
+      Ship.new(name: details[:name], type: details[:type], booty: details[:booty])
     end
     
     #erb :"pirates/show"
