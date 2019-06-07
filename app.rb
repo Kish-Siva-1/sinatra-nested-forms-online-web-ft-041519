@@ -15,7 +15,7 @@ module FormsLab
     binding.pry
     #@pirate = Pirate.new(name: params[:name], weight: params[:weight], height: params[:height])
     
-    erb :"pirates/show"
+    #erb :"pirates/show"
   end
   
   end
