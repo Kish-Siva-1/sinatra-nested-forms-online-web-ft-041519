@@ -5,7 +5,7 @@ class Ship
   
   def initialize(name:, type:, booty:)
     @name =  name 
-    @height = height
+    @type = type
     @booty = booty 
     @@all << self 
   end 
