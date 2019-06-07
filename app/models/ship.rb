@@ -13,5 +13,6 @@ class Ship
   def self.all 
     @@all
   end 
+  
 
 end
