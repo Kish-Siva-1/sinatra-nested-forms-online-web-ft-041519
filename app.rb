@@ -15,6 +15,10 @@ module FormsLab
     binding.pry
     @pirate = Pirate.new(:name => params[:pirate][:name], :weight => params[:pirate][:weight], :height => params[:pirate][:height])
     
+    params[:student][:courses].each do |details|
+    Course.new(details)
+  end
+    
     #erb :"pirates/show"
   end
   
